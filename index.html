@@ -1,69 +1,150 @@
+<!DOCTYPE html>
 <html>
 
-<!-- Head -->
 <head>
-    <h1>我叫朱祉霖 aka 路克<br></h1>
-    號稱裁判長暴君，專門擔任6TMT裁判長然後壓榨所有裁判。<br>
-    除此之外，我的專長是數位控制圖騰柱無橋式功率因數修正轉換器以及Verilog。 <br>
+    <meta charset="UTF-8">
+    <title>我是路克</title>
 
-    <!-- Image will zoom in if notation is closing  -->
-     <style>
-        img:hover{
-            transform: scale(1.25);
-            transition: 0.5s;
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
         }
-     </style>
+
+        .container {
+            text-align: center;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        img {
+            margin-top: 10px;
+        }
+
+        button {
+            font-size: 20px;
+            padding: 5px 15px;
+        }
+
+        /* img:hover {
+            transform: scale(1.1);
+            transition: 0.4s;
+        } */
+
+        table {
+            width: 100%;
+            table-layout: fixed;
+        }
+
+        a {
+            text-decoration: none;   /* Remove underline */
+            color: inherit;          /* Using the original text color(black) */
+        }
+
+        a:hover {
+            text-decoration: underline;  /* underline display when hover */
+            color: rgb(0, 203, 230);               /* change color when hover */
+        }
+    </style>
 </head>
 
-<!-- Body -->
 <body>
 
-    <p>
-        <h3 style="color:rgb(214, 163, 23)">我的實驗室</h3>
-        國立成功大學電機所VLSI/CAD組 混合訊號積體電源控管設計實驗室 <br>
-        地址:台南市東區大學路1號成功大學自強校區奇美樓三樓95315室
-    </p>
+<div class="container">
 
-    <!-- Display a image(Carl hedgedog) -->
-    <!-- 
-    <p>
-        <img src="image/Carl.jpg" alt="A hedgedog named Carl." width="300" >
-    </p>  
-    -->
+<h1>我叫朱祉霖 aka 路克</h1>
 
-    <p>
-        <!-- hyperlink in two types : text and image -->
-        <a href="https://x.com/Clinchiu_Luke">
-        點我進朱祉霖的推特(下面也是)
-        </a>
-        <br>
-        <a href="https://x.com/Clinchiu_Luke">
-        <img src="image/luke_pfp.jpg" alt="CCL's pfp in X" width="400" >
-        </a>
-    </p>
+<p>
+號稱裁判長暴君，專門擔任6TMT裁判長然後壓榨所有裁判。<br>
+除此之外，我的專長是數位控制圖騰柱無橋式功率因數修正轉換器以及Verilog。
+</p>
+<img src="image/luke_formulaone.png" alt="CCL_F1" width="750">
 
-    <!-- CSS:　Text color -->
-    <p style="color: blue;">我是css大師，林尚廷是我的學生。</p>
-    <p style="color: rgb(3, 94, 94);">我工數很強，教了不少數學系的人。</p>
+<h3 style="color:rgb(91, 6, 172)">關於我</h3>
+<table class="inf_class">
+    <tr>
+        <td width = 15%>研究興趣</td>
+        <td width = 85%>數位控制圖騰柱無橋式功率因數修正轉換器、Verilog</td>
+    </tr>
+    <tr>
+        <td>學歷</td>
+        <td>B.S. in Electrical Engineering, National Cheng Kung University.</td>
+    </tr>
+    <tr>
+        <td>電話</td>
+        <td>不知道</td>
+    </tr>
+    <tr>
+        <td>實驗室分機</td>
+        <td>不知道</td>
+    </tr>
+    <tr>
+        <td>osu!</td>
+        <td>
+            <a href="https://osu.ppy.sh/users/33689349" target="_blank">
+            Luke920118
+            </a>
+        </td>
+    </tr>
+</table>
 
-    <!-- JavaScript: press the button to change the text -->
-    <h1 id="title">你要吃路克火鍋嗎?</h1>
-    <button style="font-size: 20px;" onclick="change()">要</button><br><br>
-    <img id="luke" src="image/1.png" alt="img made by CCL" width="400" >
+<h3 style="color:rgb(214,163,23)">我的實驗室</h3>
 
-    <!-- JavaScript: title's button -->
-    <script>
-        function change(){
-            document.getElementById("title").innerText="你是林尚廷嗎? 看到路克火鍋就想吃。";
-            document.getElementById("luke").src="image/2.png";
-        }
-    </script>
-    
-    <!-- Nothing -->
-    <p>
-        <h1 id="announce">@Runick Fountain 請養成認真且仔細看公告的習慣，不要直接按読にする還有走馬看花🚶🏇👀🌸</h1><br>
-        所以你知道我叫什麼名字嗎?
-    </p>
+<p>
+    國立成功大學電機所VLSI/CAD組 混合訊號積體電源控管設計實驗室<br>
+    地址：台南市東區大學路1號成功大學自強校區奇美樓三樓95315室
+</p>
+
+<h3 style="color:rgb(4, 94, 168)">這裡是你該知道我的個性和事蹟</h3>
+
+<p>
+<a href="https://x.com/Clinchiu_Luke">
+點我進朱祉霖的推特 (下面也是)
+</a>
+<br>
+
+<a href="https://x.com/Clinchiu_Luke">
+<img src="image/luke_pfp.jpg" alt="CCL's pfp in X" width="400">
+</a>
+</p>
+
+<p style="color: blue;">
+我是css大師，林尚廷是我的學生。
+</p>
+
+<p style="color: rgb(3,94,94);">
+我工數很強，教了不少數學系的人。
+</p>
+
+<h1 id="title">你要吃路克火鍋嗎?</h1>
+
+<button onclick="change()">要</button>
+
+<br><br>
+
+<img id="luke" src="image/1.png" alt="img made by CCL" width="400">
+
+<script>
+function change(){
+    document.getElementById("title").innerText =
+    "你是林尚廷嗎? 看到路克火鍋就想吃。";
+
+    document.getElementById("luke").src = "image/2.png";
+}
+</script>
+
+<h2 id="announce">
+@Runick Fountain 請養成認真且仔細看公告的習慣，
+不要直接按読にする還有走馬看花 🚶🏇👀🌸
+</h2>
+
+<p style="color:rgb(65, 64, 64)">
+所以你知道我叫什麼名字嗎?
+</p>
+<img id="vague_luke" src="image/huluke.jpg" alt="Vague photo of Luke" width="400">
+
+</div>
+
 </body>
 
 </html>
